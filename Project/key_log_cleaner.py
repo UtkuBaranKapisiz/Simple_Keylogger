@@ -1,4 +1,4 @@
-log_file = open(r"C:\Users\Badger\Desktop\Code\Keylogger\Log\ key_log.txt", "r")
+log_file = open(r"<Your Dir>\Log\ key_log.txt", "r")
 Lines = log_file.readlines()
 
 line = Lines[0]
@@ -29,6 +29,6 @@ for line in Lines:
 
 print(init_date + init_time + '\n' + ''.join(hourly_log) + '\n')
 
-with open(r'C:\Users\Badger\Desktop\Code\Keylogger\Log\clean_key_log.txt', 'w') as f:
+with open(r'<Your dir>\Log\clean_key_log.txt', 'w') as f:
     f.write(init_date + init_time + '\n' + ''.join(hourly_log) + '\n')
 
