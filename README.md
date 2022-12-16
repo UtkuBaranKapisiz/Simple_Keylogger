@@ -3,8 +3,9 @@
  
 # TO DO
 - [ ] Mouse log cleaner
-- [ ] Add encryption to log files
+- [X] Add encryption to log files
 - [ ] Add a feature to e-mail logs automatically
+- [ ] Add decryptor
 
 # Package installation
 > conda env create -f environment.yaml
