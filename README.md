@@ -1,7 +1,7 @@
 # Keylogger
 
 A simple key and mouse logger with readable output
-
+> !!! Downloading or activating environment is safe and it would not activate the keylogger script.
 # TO DO
 
 - [ ] Mouse log cleaner
