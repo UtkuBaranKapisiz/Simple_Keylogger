@@ -1,22 +1,28 @@
 # Keylogger
- A simple key and mouse logger with readable output
- 
+
+A simple key and mouse logger with readable output
+
 # TO DO
+
 - [ ] Mouse log cleaner
-- [X] Add encryption to log files
+- [x] Add encryption to log files
 - [ ] Add a feature to e-mail logs automatically
 - [ ] Add decrypter
 
 # Package installation (Anaconda)
+
 > conda env create -f environment.yaml</br>
 > conda activate KeyLogger
 
 # Libraries:
+
 - pynput (for input)
 - rsa (for cryptography)
 - logging
 
 # Sample Log:
+
+# Sample Logs:
 
 ![image](https://user-images.githubusercontent.com/97388983/204330550-0b75726d-2b85-45f1-99d6-8f6d35f0674d.png)
 
